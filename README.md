@@ -1,10 +1,10 @@
 # TOGGLE-AN-LED-ON-OFF-BY-USING-AN-EXTERNAL-INTERRUPT-IN-ARM-CONTROLLER
 
-**Aim:**
+*Aim:*
 
 To Interface a Digital Input (user push button ) to ARM development board and write a program to obtain the data and flash the led.
 
-**Components required:** 
+*Components required:* 
 
 1.	STM32 CUBE IDE
 2.	ARM IOT development board
@@ -12,7 +12,7 @@ To Interface a Digital Input (user push button ) to ARM development board and wr
 
 The full form of an ARM is an advanced reduced instruction set computer (RISC) machine, and it is a 32-bit processor architecture expanded by ARM holdings. The applications of an ARM processor include several microcontrollers as well as processors. The architecture of an ARM processor was licensed by many corporations for designing ARM processor-based SoC products and CPUs. This allows the corporations to manufacture their products using ARM architecture. Likewise, all main semiconductor companies will make ARM-based SOCs such as Samsung, Atmel, TI etc.
 
-**Procedure:**
+*Procedure:*
 
 1.	Click on STM 32 CUBE IDE.
 2.	Click on FILE, click on new stm 32 project.
@@ -27,7 +27,7 @@ The full form of an ARM is an advanced reduced instruction set computer (RISC) m
 11.	Click on debug option.
 12.	Connect the stm nucleo board and click on run.
 
-**STM 32 CUBE PROGRAM** : https://www.youtube.com/watch?v=oJc0seuBbzI
+*STM 32 CUBE PROGRAM* : https://www.youtube.com/watch?v=oJc0seuBbzI
 
 #include "main.h" 
 
@@ -92,16 +92,18 @@ HAL_GPIO_WritePin(GPIOA, GPIO_PIN_5, GPIO_PIN_RESET);
 
 }
 
-**OUTPUT:**
-<BR>
-<BR>
-<BR>
-<BR>
-<BR>
+*OUTPUT:*
+
+
+![WhatsApp Image 2025-11-11 at 12 33 33_9d1c776f](https://github.com/user-attachments/assets/034251e9-8a8e-45b0-b312-533c79efd802)
 
 
 
-**Result :**
+
+<br>
+<br>
+<br>
+<br>
+*Result :*
 
 Interfacing a digital Input (Pushbutton ) with ARM microcontroller based IOT development is executed and the results are verified.
-
